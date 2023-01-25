@@ -1,20 +1,5 @@
 <script setup lang='ts'>
-
-  enum Gender {
-    GIRL = 'Girl',
-    BOY = 'Boy'
-  }
-
-  enum Popularity {
-    TRENDY = 'Trendy',
-    UNIQUE = 'Unique'
-  }
-
-  enum Length {
-    LONG = 'Long',
-    ALL = 'All',
-    SHORT = 'Short'
-  }
+  import { Gender, Length, Popularity } from '@/data';
 
   interface OptionsState {
     gender: Gender;
