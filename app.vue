@@ -61,7 +61,7 @@
 <style scoped>
   .container {
     font-family: Arial, Helvetica, sans;
-    color: rgb(26, 60, 138);
+    color: rgb(27, 60, 138);
     max-width: 50rem;
     margin: 0 auto;
     text-align: center;
@@ -106,7 +106,7 @@
   }
 
   .option-active {
-    background-color: 0.15rem solid rgb(249, 87, 89);
+    background-color: rgb(249, 87, 89);
     color: white;
   }
 </style>
