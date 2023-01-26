@@ -156,4 +156,25 @@ export const names: Name[] = [
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
+  {
+    id: 21,
+    name: 'Frederick',
+    gender: Gender.BOY,
+    popularity: Popularity.UNIQUE,
+    length: Length.LONG,
+  },
+  {
+    id: 22,
+    name: 'Fransisco',
+    gender: Gender.BOY,
+    popularity: Popularity.TRENDY,
+    length: Length.LONG,
+  },
+  {
+    id: 23,
+    name: 'Ronaldo',
+    gender: Gender.BOY,
+    popularity: Popularity.TRENDY,
+    length: Length.LONG,
+  },
 ];
