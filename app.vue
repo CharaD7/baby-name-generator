@@ -86,7 +86,13 @@
       </div>
       <button class='primary' @click='computeSelectedNames'>Find Names</button>
     </div>
-    {{ selectedNames }}
+
+    <div class="cards-container">
+      <div v-for='name in selectedNames' :key='name' class='card'>
+        {{ name }}
+        <p>x</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -151,5 +157,33 @@
     font-size: 1rem;
     margin-top: 1rem;
     cursor: pointer;
+  }
+
+  .cards-container {
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    background-color: rgb(27, 60, 138);
+    width: 25%;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .card p {
+    position: absolute;
+    top: -25%;
+    left: 91.5%;
+    padding: 0 0.28rem;
+    cursor: pointer;
+    color: rgb(249, 87, 89);
+    border-radius: 0.5rem;
+    background-color: rgb(255, 238, 236);
   }
 </style>
