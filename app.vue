@@ -182,8 +182,8 @@
     left: 91.5%;
     padding: 0 0.28rem;
     cursor: pointer;
-    color: rgb(249, 87, 89);
+    color: rgb(27, 60, 138);
     border-radius: 0.5rem;
-    background-color: rgb(255, 238, 236);
+    background-color: white;
   }
 </style>
